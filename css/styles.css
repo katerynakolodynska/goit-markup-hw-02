@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
+    color:#fff;
     background-color: #fff;
 }
 header{
@@ -30,21 +31,21 @@ nav{
     color: #2e2f42;
     font-family: "Raleway", sans-serif;
 }
-.header-menu-list{
+.header-menu-list > li{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
 }
-.header-menu-item{
+.header-menu-item:hover{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.link-contact {
+.link-contact:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
