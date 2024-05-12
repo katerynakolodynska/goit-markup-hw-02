@@ -90,6 +90,8 @@ body {
  }
  .team-card{
     list-style-type: none;
+ }
+ .team-card-list{
     background-color: #fff;
  }
  .team-card .team-item{
