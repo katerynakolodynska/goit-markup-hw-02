@@ -90,6 +90,7 @@ body {
  }
  .team-card{
     list-style-type: none;
+    background-color: #fff;
  }
  .team-card .team-item{
     font-weight: 500;
