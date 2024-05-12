@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
 }
-.hedder-item{
+.hedder-nav{
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -36,14 +36,14 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-menu-item{
+.header-menu-list .header-menu-item{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.link-contact:honer{
+.contact-menu .link-contact:honer{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -52,14 +52,23 @@ body {
     text-decoration: underline;
 }
     /* Portfolio */
- .portfolio-card-img .portfolio-card-item{
+ .portfolio-card{
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+ }
+ .portfolio-card .portfolio-card-item{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
  }
- .portfolio-card-img .portfolio-card-paragraf{
+   
+ .portfolio-card .portfolio-card-paragraf{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -90,4 +99,6 @@ body {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
  }
