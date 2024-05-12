@@ -78,6 +78,8 @@ body {
     flex-direction: row;
     gap: 0px;
     color: #4d5ae5;
+    text-decoration: none;
+    text-transform: uppercase;
  }
  .logo-fooetr-cursive{
     color: #f4f4fd;
