@@ -5,16 +5,16 @@ body {
 }
 .hedder{
     color: #2e2f42;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
 }
 .logo{
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .logo-cursive{
     color: #2e2f42;
@@ -174,6 +174,10 @@ body {
     color: #4d5ae5;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
  }
  .logo-footer-cursive{
     color: #f4f4fd;
