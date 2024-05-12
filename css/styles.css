@@ -1,9 +1,14 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #fff;
 }
 .hedder{
     color: #2e2f42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -23,6 +28,14 @@ body {
     line-height: 1.5;
     color: #2e2f42;
     text-decoration: none;
+    letter-spacing: 0.02em;
+}
+.header-list .link:hover,
+.header-list .link:focus{
+    color: #404bbf;
+}
+.contact{
+    font-style: normal;
 }
 .contact-list {
     list-style-type: none;
@@ -33,10 +46,12 @@ body {
     line-height: 1.5;
     color: #434455;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .contact-list .link-contact:hover,
-.contact-list .link-contact:active{
+.contact-list .link-contact:focus{
     text-decoration: underline;
+    color: #404bbf;
 }
     /* Hero */
 .hero{
@@ -49,6 +64,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    line-height: 1.07;
 }
 .hero-button{
     background-color: #4d5ae5;
@@ -57,6 +73,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #404BBF;
+    cursor: pointer;
 }
     /* Features */
 .features{
@@ -70,12 +92,14 @@ body {
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 .fetures-list .features-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
     /* Team */
  .team-section{
@@ -84,9 +108,11 @@ body {
  .team{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     text-align: center;
     color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
  }
  .team-card{
     list-style-type: none;
@@ -118,6 +144,8 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    line-height: 1.11;
+    text-transform: capitalize;
  }
  .portfolio-card{
     list-style-type: none;
@@ -138,7 +166,7 @@ body {
     color: #434455;
  }
    /* Footer */
- .page-footer{
+ .footer{
     background-color: #2e2f42;
  }
  .logo-footer{
