@@ -39,16 +39,15 @@ body {
     list-style-type: none;
 }
 .contact-list .link-contact{
-    color: #2e2f42;
-    text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
 }
 .contact-list .link-contact:hover,
 .contact-list .link-contact:active{
-    color: #434455;
     text-decoration: underline;
 }
     /* Portfolio */
