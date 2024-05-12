@@ -1,7 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
-    text-decoration: none;
 }
 .hedder{
     display: flex;
@@ -20,16 +19,12 @@ body {
     gap: 0px;
     color: #4d5ae5;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .logo-cursive{
-    color: #f4f4fd;
+    color: #2e2f42;
 }
 .header-list {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
     list-style-type: none;
 }
 .header-list .link{
@@ -41,8 +36,10 @@ body {
 }
 .contact-list {
     list-style-type: none;
+    color: #2e2f42;
 }
-.contact-list .link-contact:honer{
+.contact-list .link-contact:honer
+.contact-list .link-contact:active{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
