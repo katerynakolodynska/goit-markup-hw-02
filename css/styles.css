@@ -47,6 +47,30 @@ body {
 .contact-list .link-contact:active{
     text-decoration: underline;
 }
+    /* Hero */
+.hero{
+    background-color: #2e2f42;
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.hero-button{
+    background-color: #4d5ae5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
     /* Portfolio */
  .portfolio-card{
     list-style-type: none;
@@ -73,7 +97,7 @@ body {
  }
    /* Footer */
  .page-footer{
-    background: #2e2f42;
+    background-color: #2e2f42;
  }
  .logo-footer{
     font-family: "Raleway", sans-serif;
@@ -83,6 +107,7 @@ body {
     flex-direction: row;
     color: #4d5ae5;
     text-transform: uppercase;
+    text-decoration: none;
  }
  .logo-fooetr-cursive{
     color: #f4f4fd;
